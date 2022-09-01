@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+   font-family: 'Noto Sans KR';
+   font-style: normal;
+   font-weight: 400;
+   src: url('../font/NotoSansKR-Regular.woff2') format('woff2'),
+        url('../font/NotoSansKR-Regular.woff') format('woff'),
+        url('../font/NotoSansKR-Regular.otf') format('opentype');
+ }
+
+@font-face {
+   font-family: 'Noto Sans KR';
+   font-style: normal;
+   font-weight: 500;
+   src: url('../font/NotoSansKR-Medium.woff2') format('woff2'),
+        url('../font/NotoSansKR-Medium.woff') format('woff'),
+        url('../font/NotoSansKR-Medium.otf') format('opentype');
+ }
+
+@font-face {
+   font-family: 'Noto Sans KR';
+   font-style: normal;
+   font-weight: 700;
+   src: url('../font/NotoSansKR-Bold.woff2') format('woff2'),
+        url('../font/NotoSansKR-Bold.woff') format('woff'),
+        url('../font/NotoSansKR-Bold.otf') format('opentype');
+ }
+
+
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,select,textarea,p,blockquote,th,td{margin:0;padding:0;font:normal 14px 'Noto Sans KR'; letter-spacing:-0.5px; }
+
+a, a:link, a:visited, a:hover, a:active {color: inherit;text-decoration:none}
+
+button{border:none;background:none;font-weight:bold;cursor:pointer;}
+
+table{border-collapse:collapse;border-spacing:0;width:100%;}
+
+fieldset,img{border:0;vertical-align:middle;}
+
+li{list-style:none;}
+
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+
+legend{color:#666;}
+
+input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inherit;font-style:100%;font-weight:inherit;color:inherit;vertical-align: middle;}
+
+
+
+/* 브라우저별 textarea palceholder */
+input::-webkit-input-placeholder{color:#999;}
+input:-moz-input-placeholder{color:#999;}
+input::-moz-input-placeholder{color:#999;}
+input:-ms-input-placeholder{color:#999 !important;}
+
+caption{font-size:0px; line-height:0px; width:0px; height:0px; overflow:hidden;}
+
+.blind{position:absolute; top:0; left:0; width:0; height:0; font-size:0; line-height:0; overflow:hidden; visibility:hidden}
+
+.clearfix:after{display:block; content:""; clear:both;}
+
+.fL{float:left !important;}
+.fR{float:right;}
+.align_l{text-align:left !important;}
+.align_r{text-align:right !important;}
+.align_c{text-align:center !important;}
+
